@@ -1,0 +1,33 @@
+
+.headerIcon-logo{
+  width: 50px;
+  height: 58px;
+  color: #61DBFB;
+}
+
+.toggle{
+  margin: 5px 20px 15px 0;
+}
+.toggle:hover {
+  background-color:  rgb(20, 118, 163);
+}
+.nav-theme {
+  background: #1f2235;
+  font-size: 17px;
+  transition: 0.5s;
+  z-index: 5;
+}
+
+.link::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(104, 207, 255);
+  transition: width .3s;
+}
+
+.link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
